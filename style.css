@@ -43,10 +43,6 @@ main {
     height: 300px!important;
 }
 
-.card-group > .card > .card-body > h5 {
-    
-}
-
 footer {
     grid-area: footer;
     background-color: #000;
@@ -70,4 +66,15 @@ footer > ul > li.nav-item > a.nav-link:hover {
 
 .pb-3, .mb-3, .my-4 {
     margin-bottom: 0 !important;
+}
+
+#title-anuncio {
+    text-align: center;
+    color: #ccc;
+    font-size: 0.8em;
+}
+
+#anuncio {
+    display: flex;
+    justify-content: center;
 }
